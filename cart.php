@@ -1,0 +1,28 @@
+<?php
+
+// include header.php file
+include('header.php');
+
+?>
+
+<?php
+
+    /*  include cart items if it is not empty */
+    count($product->getData('cart')) ? include ('Template/_cart.php') :  include ('Template/notFound/_cart_notFound.php');
+    /*  include cart items if it is not empty */
+
+        /*  include top sale section */
+        count($product->getData('wishlist')) ? include ('Template/_wishlist.php') :  include ('Template/notFound/_wishlist_notFound.php');
+        /*  include top sale section */
+
+// include _top-sale.php file
+include('Template/_top-sale.php');
+
+?>
+
+<?php
+
+// include footer.php file
+include('footer.php');
+
+?>

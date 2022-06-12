@@ -1,0 +1,34 @@
+// Special price section template
+
+#special-price{
+    .grid .grid-item{
+        margin-right: 1.2rem;
+        margin-top: 1rem;
+    }
+    .grid .grid-item .item .product img{
+        transform: scale(0.9);
+        transition: ease 1.2s;
+    }
+    .grid .grid-item .item .product img:hover{
+        transform: scale(1.1);
+    }
+}
+.tab-hover{
+    transform: scale(1);
+    transition: ease 1s;
+}
+.tab-hover:hover{
+    background-color: $color-yellow;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+#new-phones .container .owl-carousel .item img{
+    transform: scale(1);
+    transition: ease 1s;
+}
+#new-phones .container .owl-carousel .item img:hover{
+    transform: scale(0.9);
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background-color: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: 0.5s ease;
+  transform: scale(1);
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel.owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel.owl-nav button.owl-prev {
+  left: 100px;
+}
+#top-sale .owl-carousel .owl-nav button .owl-prev span {
+  font-size: 35px;
+  color: #003859;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+#special-price .grid .grid-item .item .product img {
+  transform: scale(0.9);
+  transition: ease 1.2s;
+}
+#special-price .grid .grid-item .item .product img:hover {
+  transform: scale(1.1);
+}
+
+.tab-hover {
+  transform: scale(1);
+  transition: ease 1s;
+}
+
+.tab-hover:hover {
+  background-color: #FFD289;
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#new-phones .container .owl-carousel .item img {
+  transform: scale(1);
+  transition: ease 1s;
+}
+
+#new-phones .container .owl-carousel .item img:hover {
+  transform: scale(0.9);
+}
+
+/*# sourceMappingURL=style.css.map */
